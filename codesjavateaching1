@@ -1,0 +1,297 @@
+public class Main {
+    public static void main (String[]args){
+        
+        //adding two numbers
+        System.out.println(3 + 3);
+        
+        //Create a variable called name of type String and assign it the value "John"
+        String name = "John";
+    System.out.println(name);
+    
+    //Create a variable called myNum of type int and assign it the value 15
+    int myNum = 15;
+    System.out.println(myNum);
+    
+    //declare a variable without assigning the value, and assign the value later
+    int myNum;
+    myNum = 15;
+    System.out.println(myNum);
+    
+    //Change the value of myNum from 15 to 20
+    int myNum =15;
+    myNum = 20; //changing myNum to 20
+    System.out.println(myNum);
+    
+    //printing the name //adding variables
+    
+    public class Main{
+    public static void main(String[]args){
+        String Name = "John";
+        System.out.println("Hello" + Name);
+        System.out.println("You" + Name);
+        
+        //adding variable to another variables
+        
+        public class Main{
+    public static void main(String[]args){
+        String Name = "John";
+        String Lastname = "Smith";
+        System.out.println(Name + Lastname);
+        
+        //use the + character to add a variable to another variable
+        public class Main{
+    public static void main(String[]args){
+        String Name = "John ";
+        String Lastname = "Smith";
+        String fullname = (Name + Lastname);
+        System.out.println(fullname);
+        
+        //decalring many variables
+        public class Main{
+    public static void main(String[]args){
+        int x = 4;
+        int y = 8;
+        int z = 6;
+        System.out.println(x + y + z);
+    
+    
+// assign the same value to multiple variables in one line
+public class Main{
+    public static void main(String[]args){
+        int x, y, z;
+        x = y = z = 4;
+    
+        System.out.println(x + y + z);
+    
+    //Java Boolean Types 
+    public class Main{
+    public static void main(String[]args){
+       boolean mybool = true;
+       boolean mybhool = false;
+    
+        System.out.println(mybhool);  //will print false
+        System.out.println(mybool); //will print true
+        
+        //Java Characters
+        
+        public class Main{
+    public static void main(String[]args){
+       char myChar = 'A';
+    
+        System.out.println(myChar);
+        
+        //Java Type Casting //Widening Casting
+        
+        public class Main{
+    public static void main(String[]args){
+      int myInt = 10;
+       double mydouble = myInt;
+       System.out.println(mydouble);
+       System.out.println(myInt);
+       
+       //using float
+       public class Main{
+    public static void main(String[]args){
+      int myInt = 10;
+       float myFloat = myInt;
+       System.out.println(myFloat);
+       System.out.println(myInt);
+        
+        
+    // //Java Type Casting //Narrowing Casting
+    
+    public class Main{
+    public static void main(String[]args){
+      double myDouble = 9.99d;
+       int myInt = (int) myDouble;
+       System.out.println(myDouble);
+       System.out.println(myInt);
+       
+       //Java Operators //Arthimetic //decrement
+       public class Main{
+    public static void main(String[]args){
+      int x = 5;
+    --x;
+    System.out.println(x);
+        //Java Operators //Arthimetic //Increment
+        public class Main{
+    public static void main(String[]args){
+      int x = 5;
+    ++x;
+    System.out.println(x);
+     //Java Operators //Arthimetic //Addition
+     public class Main{
+    public static void main(String[]args){
+      int x = 5;
+      int y = 6;
+    
+    System.out.println(x + y);
+        //Java Operators //Arthimetic //Multiplication
+        
+        public class Main{
+    public static void main(String[]args){
+      int x = 5;
+      int y = 6;
+    
+    System.out.println(x * y); 
+    
+     //Java Operators //Arthimetic //Subtraction
+     
+     public class Main{
+    public static void main(String[]args){
+      int x = 5;
+      int y = 6;
+    
+    System.out.println(x - y);
+    
+    //Java Operators //Arthimetic //Subtraction
+    public class Main{
+    public static void main(String[]args){
+      int x = 6;
+      int y = 6;
+    
+    System.out.println(x / y);
+    
+    //Java Operators //Arthimetic //Modulus
+    public class Main{
+    public static void main(String[]args){
+      int x = 5;
+      int y = 2;
+    
+    System.out.println(x % y);
+    
+    //Java Assignment Operators
+    public class Main{
+    public static void main(String[]args){
+      int x = 5;
+       x += 3;
+    
+    System.out.println(x);
+    
+    //more operators
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       x %= 3;
+    
+    System.out.println(x);
+    
+    //more operators
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       x <<= 3;
+    
+    System.out.println(x);
+    
+    //more opersators
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       x -= 3;
+    
+    System.out.println(x);
+    
+    //more operators
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       x *= 3;
+    
+    System.out.println(x);
+        
+    }
+}
+
+//Java Comparison Operators //Equal to
+public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       int y = 3;
+    
+    System.out.println(x == y); // returns false because 4 is not equal to 3
+  
+  //Not equal
+  public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       int y = 3;
+    
+    System.out.println(x != y); // returns true because 4 is not equal to 3
+    
+    //Greater than
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       int y = 3;
+    
+    System.out.println(x > y); // returns true because 4 is greater than 3
+    
+    //less than
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       int y = 3;
+    
+    System.out.println(x < y); // returns false because 4 is greater than 3
+    
+    //Greater than or equal to
+    public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       int y = 3;
+    
+    System.out.println(x >= y); // returns true because 4 is greater than 3
+  
+        
+    }
+}
+
+//Less than or equal to
+public class Main{
+    public static void main(String[]args){
+      int x = 4;
+       int y = 3;
+    
+    System.out.println(x <= y); // returns false because 4 is greater than 3
+  
+        
+    }
+}
+
+  //Java Logical Operators //Logical and
+  public class Main{
+    public static void main(String[]args){
+      int x = 5;
+       
+    
+    System.out.println(x > 3 && x < 10); //returns true as x is more than 3 and less than 10
+  
+        
+    }
+}
+  
+    //Java Logical Operators //Logical or
+    public class Main{
+    public static void main(String[]args){
+      int x = 5;
+       
+    
+    System.out.println(x > 3 || x < 40); //returns true as x is more than 3 and less than 40
+  
+        
+    }
+}
+
+//Java Logical Operators //Logical Not //Reverse the result, returns false if the result is true
+
+public class Main{
+    public static void main(String[]args){
+      int x = 5;
+       
+    
+    System.out.println(!(x > 3 && x < 10));
+  
+        
+    }
+}
